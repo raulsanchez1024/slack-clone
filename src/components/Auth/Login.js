@@ -61,6 +61,7 @@ class Login extends React.Component {
                         <Icon name="code branch" color="violet" />
                         Login to DevChat
                     </Header>
+                    <p>Email: raul@gmail.com <br /> Password: 123456</p>
                     <Form size="large" onSubmit={this.handleSubmit}>
                         <Segment stacked>
                             <Form.Input
